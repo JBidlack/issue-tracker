@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en">
       <body className={inter.className}>
         <Theme accentColor="iris" panelBackground="solid" scaling="110%">
           <NavBar/>
